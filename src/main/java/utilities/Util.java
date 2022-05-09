@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-public class Utility {
+public class Util {
     public static Object fetchPropertiesValues(String parameter) throws IOException {
         FileInputStream file = new FileInputStream("config/ApplicationConfig.properties");
         Properties property = new Properties();

@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41ae2719-f249-4f39-8677-5112219eacf2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/InitiateDriverInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/Utility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InitiateDriverInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InitiateDriverInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/Util.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "exceleditor.install": "false",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
