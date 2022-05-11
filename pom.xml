@@ -55,4 +55,42 @@
 
 
     </dependencies>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>com.trivago.rta</groupId>
+                    <artifactId>cluecumber-report-plugin</artifactId>
+                    <version>2.8.0</version>
+                    <executions>
+                        <execution>
+                            <id>report</id>
+                            <phase>post-integration-test</phase>
+                            <goals>
+                                <goal>reporting</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                    <configuration>
+                        <sourceJsonReportDirectory>${project.build.directory}/cucumber-report
+                        </sourceJsonReportDirectory>
+                        <generatedHtmlReportDirectory>${project.build.directory}/generated-report
+                        </generatedHtmlReportDirectory>
+                        <failScenariosOnPendingOrUndefinedSteps>true</failScenariosOnPendingOrUndefinedSteps>
+                        <expandBeforeAfterHooks>true</expandBeforeAfterHooks>
+                        <expandDocStrings>true</expandDocStrings>
+                        <customParameters>
+                            <Custom_Parameter>REPORT</Custom_Parameter> <!--Titulo del Reporte - Se puede cambiar -->
+                            <Custom_URL>https://www.thetestingworld.com/testings/</Custom_URL>
+                            <_Text>Cluecumber Report</_Text>
+                        </customParameters>
+                        <customPageTitle>REPORT</customPageTitle>
+                        <skip>false</skip>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
 </project>
